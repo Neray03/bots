@@ -15,7 +15,7 @@ let yandexInput = document.getElementsByName('text')[0];
 let keywords =['Гобой','Флейта', 'Кларнет','Саксофон','Тромбон','Валторна'];
 let keyword = keywords[getRandom(0,keywords.length)];
 let btn = document.getElementsByClassName("button mini-suggest__button button_theme_search")[0];
-console.log(btn);
+//console.log(btn);
 let i =0;
 let links = document.links;
 
@@ -36,7 +36,7 @@ if(btn !== undefined){
 
  
 	for(let i=0; i<links.length; i++) {
-        console.log(links[i].href);
+   //     console.log(links[i].href);
 		if(links[i].href.indexOf("muz-story.ru")!=-1) {
 			let link = links[i];
 			
